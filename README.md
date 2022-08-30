@@ -1,6 +1,6 @@
 # XVR.Art 开放文档
 
-![沙盒元宇宙](https://xvr.oss-cn-hangzhou.aliyuncs.com/common/logo-dark%402x.png)
+[![沙盒元宇宙](https://xvr.oss-cn-hangzhou.aliyuncs.com/common/logo-dark%402x.png)](https://xvr.art)
 
 
 沙盒元宇宙致力于提供虚拟数字空间服务，为数字藏品赋能元宇宙，同时支持教育培训，会议空间，画廊展馆等空间。
@@ -8,16 +8,19 @@
 
 ### API列表
 
-1. 客户接口 (Customer)
+1. [客户接口 (Customer)](https://github.com/XVR-Art/Docs/blob/master/api/customer.md)
    
    1. 获取您在XVR.art的客户信息
 
-2. 空间接口 (Space)
+2. [空间接口 (Space)](https://github.com/XVR-Art/Docs/blob/master/api/space.md)
    
    1. 获取空间列表
    
    2. 切换空间状态
 
+### 可用SDK
+
+1. [PHP SDK](https://github.com/XVR-Art/Docs/tree/master/sdks/php)
 
 ### 接口公共参数
 <table width="100%">
@@ -44,7 +47,7 @@
 
 1. 所有参数(公共参数和业务参数)使用x-www-form-urlencoded的方式提交
 
-2. 接口只有在成功的时候返回 http 200,  其他时候视情况而定, 业务出错返回 http 400, 系统异常返回 http 500, 具体信息请检查返回的 msg 字段。
+2. 接口返回内容均为json, 且只有在业务成功的时候返回 http 200,  其他时候视情况而定, 业务出错返回 http 400, 系统异常返回 http 500, 具体信息请检查返回的 msg 字段。
 
 ### <span id="sign">签名算法</span>
 
