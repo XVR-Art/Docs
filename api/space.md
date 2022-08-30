@@ -70,7 +70,7 @@
 ```json
 {
 	"code": 200,
-	"result": null,
+	"result": {"status" => 1},
 	"msg": "OK"
 }
 ```
