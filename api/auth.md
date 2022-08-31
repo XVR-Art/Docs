@@ -66,7 +66,7 @@
 
 ```json
 {
-  "code": 200,
+  "code": 400,
   "result": 0,
   "fallback_url": "http://your_fallback_url",
   "msg": "当前用户无权进入空间"
