@@ -18,6 +18,10 @@
    
    2. 切换空间状态
 
+3. [鉴权接口 (Auth)](https://github.com/XVR-Art/Docs/blob/master/api/auth.md)
+
+    1. 自定义您的空间的鉴权逻辑, 控制谁可以进入空间
+
 ### 可用SDK
 
 1. [PHP SDK](https://github.com/XVR-Art/Docs/tree/master/sdks/php)
