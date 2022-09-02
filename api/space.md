@@ -101,7 +101,7 @@
     </tr>
     <tr>
       <td>hub_id</td>
-      <td>字符串, 要切换的空间ID</td>
+      <td>字符串, 要获取访问授权码的空间ID</td>
     </tr>
 </table>
 
