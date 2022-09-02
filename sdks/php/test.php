@@ -12,3 +12,6 @@ print_r($rs);
 
 $rs = $client->call('space/toggleStatus', ['hub_id' => 'your space hub id get from space/list']);
 print_r($rs);
+
+$rs = $client->call('space/getAccessToken', ['hub_id' => 'your space hub id get from space/list']);
+print_r($rs);

@@ -17,6 +17,8 @@
    1. 获取空间列表
    
    2. 切换空间状态
+   
+   3. 获取空间一次性访问密钥 (Access Token)
 
 3. [鉴权接口 (Auth)](https://github.com/XVR-Art/Docs/blob/master/api/auth.md)
 
