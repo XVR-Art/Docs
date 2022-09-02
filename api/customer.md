@@ -18,20 +18,20 @@
 
 ```json
 {
-	"code": 200,
-	"result": {
-		"type": 1,
-		"industry_id": 0,
-		"name": "测试客户",
-		"phone": null,
-		"email": null,
-		"memo": null,
-		"auth_url": null,
-		"fallback_url": null,
-		"room_count": 1,
-		"status": 1
-	},
-	"msg": "OK"
+    "code": 200,
+    "result": {
+        "type": 1,
+        "industry_id": 0,
+        "name": "测试客户",
+        "phone": null,
+        "email": null,
+        "memo": null,
+        "auth_url": null,
+        "fallback_url": null,
+        "room_count": 1,
+        "status": 1
+    },
+    "msg": "OK"
 }
 ```
 
@@ -39,8 +39,8 @@
 
 ```json
 {
-	"code": 400,
-	"result": null,
-	"msg": "签名验证失败(56)"
+    "code": 400,
+    "result": null,
+    "msg": "签名验证失败(56)"
 }
 ```
