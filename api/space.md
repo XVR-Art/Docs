@@ -42,6 +42,10 @@
       <td>空间地址, Access Token 授权时需携带 access_token 授权参数在此URL上</td>
     </tr>
     <tr>
+      <td>iframe_url</td>
+      <td>内嵌地址, 需要将空间内嵌到其他网页时使用的地址</td>
+    </tr>
+    <tr>
       <td>auth_type</td>
       <td>授权类型, 1: 无需鉴权 (none), 2: 密钥 (access_token), 3: 第三方接口鉴权 (url)</td>
     </tr>
@@ -88,6 +92,7 @@
             "name": "测试空间",
             "hub_id": "Your space ID",
             "hub_url": "https://your_space_url",
+            "iframe_url": "",
             "cover": "",
             "video": "",
             "auth_type": 2,
