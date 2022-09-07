@@ -29,6 +29,8 @@
         "auth_url": null,
         "fallback_url": null,
         "room_count": 1,
+        "room_quota": 10,
+        "expired_at": 0,
         "status": 1
     },
     "msg": "OK"
