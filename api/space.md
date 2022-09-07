@@ -27,7 +27,7 @@
     </tr>
     <tr>
       <td>type</td>
-      <td>空间类型, 1: 私有房间 (private) 访问需鉴权, 2: 公共房间 (public)</td>
+      <td>空间类型, 1: 私有空间 (private) 访问需鉴权, 2: 公共空间 (public)</td>
     </tr>
     <tr>
       <td>name</td>
@@ -43,7 +43,7 @@
     </tr>
     <tr>
       <td>iframe_url</td>
-      <td>内嵌地址, 需要将空间内嵌到其他网页时使用的地址</td>
+      <td>内嵌地址, 需要将空间内嵌到其他网页时使用的地址, Access Token 授权时需携带 access_token 授权参数在此URL上</td>
     </tr>
     <tr>
       <td>auth_type</td>
@@ -63,7 +63,7 @@
     </tr>
     <tr>
       <td>fallback_url</td>
-      <td>鉴权失败或退出房间时重定向地址, 优先级高于 customer.fallback_url</td>
+      <td>鉴权失败或退出空间时重定向地址, 优先级高于 customer.fallback_url</td>
     </tr>
     <tr>
       <td>logo_url</td>
@@ -78,6 +78,22 @@
       <td>状态, 1: 启用 (enabled), 2: 停用 (disabled)</td>
     </tr>
 </table>
+
+#### APP 内置 WebView 使用空间
+
+可以通过 WebView 组件直接显示 <hub_url> 即可, 如果是私有空间需携带 access_token 参数在URL上。
+
+#### PC端网页使用空间
+
+直接访问或通过 iframe 内嵌
+
+```html
+<!-- 公共空间: 可以直接访问 <hub_url>, 无需做嵌入, 这里仅用作演示 -->
+<iframe src="<iframe_url>" allow="microphone; camera; vr; speaker;"></iframe>
+
+<!-- 私有空间: 一次性 Access Token 访问鉴权 -->
+<iframe src="<iframe_url>?access_token=<Access Token>" allow="microphone; camera; vr; speaker;"></iframe>
+```
 
 #### 成功返回示例
 
