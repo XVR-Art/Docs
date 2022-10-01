@@ -57,18 +57,23 @@
 ```json
 {
   "code": 200,
-  "result": 1,
-  "msg": "OK"
+  "msg": "OK",
+  "result": {
+    "status": 1,
+    "fallback_url": ""
+  }
 }
 ```
 
-#### 鉴权返回示例
+#### 鉴权失败返回示例
 
 ```json
 {
   "code": 400,
-  "result": 0,
-  "fallback_url": "http://your_fallback_url",
-  "msg": "当前用户无权进入空间"
+  "msg": "当前用户无权进入空间",
+  "result": {
+    "status": 0,
+    "fallback_url": "http://your_fallback_url",
+  }
 }
 ```
