@@ -1,9 +1,9 @@
 # XVR.Art 开放文档
 
-[![沙盒元宇宙](https://xvr.oss-cn-hangzhou.aliyuncs.com/common/logo-dark%402x.png)](https://xvr.art)
+[![XVR元宇宙](https://xvr.oss-cn-hangzhou.aliyuncs.com/common/logo.png)](https://xvr.art)
 
 
-沙盒元宇宙致力于提供虚拟数字空间服务，为数字藏品赋能元宇宙，同时支持教育培训，会议空间，画廊展馆等空间。
+XVR元宇宙致力于提供虚拟数字空间服务，为数字藏品赋能元宇宙，同时支持教育培训，会议空间，画廊展馆等空间。
 
 
 ### API列表
